@@ -5,8 +5,20 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      maxWidth: {
+        'container':'1124px',
+    },
+    fontFamily: {
+        'dm': ["DM Sans"],
   },
+
+  colors: {
+    'primary': "262626",
+    'secondary':"767676",
+  },
+},
   plugins: [],
+  },
 }
 
